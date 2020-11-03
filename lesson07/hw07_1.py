@@ -26,3 +26,4 @@ my_mat2 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print(f"Матрица 1:\n{my_mat}")
 print(f"Матрица 2:\n{my_mat2}")
 print(f"Суммированная матрица:\n{my_mat + my_mat2}")
+

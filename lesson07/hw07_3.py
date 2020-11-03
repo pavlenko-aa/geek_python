@@ -1,6 +1,7 @@
 class Cell:
     part = int
 
+
     def __init__(self, part):
         self.part = part
 
