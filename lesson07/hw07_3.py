@@ -1,7 +1,6 @@
 class Cell:
     part = int
 
-
     def __init__(self, part):
         self.part = part
 
@@ -27,7 +26,6 @@ class Cell:
             return f"Целочисленное деление невозможно."
 
     def make_order(self):
-        numb = int(input("Введите число: "))
         lines = self.part // numb
         left = "*" * (self.part % numb)
         res = ""
@@ -56,4 +54,5 @@ print(first + second)
 print(second - third)
 print(second * third)
 print(third / second)
-print(forth.make_order())
+numb = int(input("Введите число: "))
+print(second.make_order())

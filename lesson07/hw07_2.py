@@ -7,6 +7,8 @@ class Clothes(ABC):
     def __init__(self, param):
         self.param = param
 
+    def count_cloth(self):
+        return format(2 * self.param + 0.3, ".2f")
 
 class Costume(Clothes):
     def __init__(self, param):
