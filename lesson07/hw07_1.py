@@ -15,9 +15,6 @@ class Matrix:
             line = []
             for j in range(len(self.mat[i])):
                 line.append(self.mat[i][j] + other.mat[i][j])
-                # if len(line) == len(self.mat):
-                #     result.append(line)
-                #     line = []
             result.append(line)
         return Matrix(result)
 
